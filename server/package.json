@@ -1,0 +1,31 @@
+{
+  "name": "food-planner-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development concurrently --kill-others \"tsc -w\" \"nodemon ./dist/app.js\"",
+    "postinstall": "typings install --save"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "dotenv": "^6.2.0",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11",
+    "sequelize": "^4.43.0",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/graphql": "^14.0.7",
+    "@types/lodash": "^4.14.123",
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10",
+    "sequelize-cli": "^5.4.0",
+    "typescript": "^3.3.3333",
+    "typings": "latest"
+  }
+}
