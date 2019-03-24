@@ -25,7 +25,7 @@
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.10",
     "sequelize-cli": "^5.4.0",
-    "typescript": "^3.3.3333",
-    "typings": "latest"
+    "typescript": "^3.3.4000",
+    "typings": "^2.1.1"
   }
 }
